@@ -3,6 +3,6 @@ module.exports = (msg) => {
         return;
     }
     if(msg.content.toLowerCase() === 'hello'){
-        msg.reply("Hello! Welcome to the Laurier '27 Server")
+        msg.reply("Hello! Welcome to the York Engineering '27 Server")
     }
 }

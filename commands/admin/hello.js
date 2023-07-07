@@ -1,7 +1,7 @@
 module.exports = {
     data: {
-        name: 'hello',
-        description: "Replies with Hello!"
+        name: 'sean',
+        description: "I have hacked you"
     },
 
     run: ({interaction}) => {

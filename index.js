@@ -2,6 +2,7 @@ require('dotenv/config')
 const { Client, IntentsBitField } = require('discord.js');
 const { CommandHandler } = require('djs-commander');
 const path = require('path');
+const keepAlive = require("./server")
 
 const client = new Client({
     intents:[
@@ -19,5 +20,5 @@ new CommandHandler({
 })
 
 
-
+keepAlive()
 client.login(process.env.TOKEN)
