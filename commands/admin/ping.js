@@ -1,10 +1,10 @@
 module.exports = {
-    data: {
-        name: 'ping',
-        description: "Replies with Pong!"
-    },
+  data: {
+    name: 'ping',
+    description: "Replies with Pong!"
+  },
 
-    run: ({interaction}) => {
-        interaction.reply('Pong!')
-    }
+  run: ({ interaction }) => {
+    interaction.reply('Pong!')
+  }
 }
