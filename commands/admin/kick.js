@@ -11,7 +11,10 @@ module.exports = {
     ]
   },
   run: ({interaction}) => {
+        const kickedUser = interaction.options.getMember('member');
+
+        if (interaction)
         interaction.options.getMember('member').kick();
-        interaction.reply('User has been kicked')
+        interaction.reply(`${kickedUser} has been kicked by ${interaction.user}`)
     }
 }
