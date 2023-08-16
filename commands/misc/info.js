@@ -1,20 +1,20 @@
 module.exports = {
   data: {
-    name: "links",
-    description: "Get Important Links"    
+    name: "help",
+    description: "Available commands"    
   },
   
   run: ({interaction}) => 
   {
     const infoHelp = {
       color: 0x0099ff,
-	    title: 'Info Panel',
+	    title: 'The Help Panel',
       timestamp: new Date().toISOString(),
       
       fields: [
 		  {
-			 name: 'Regular field title',
-			 value: 'Some value here',
+			 name: '/links',
+			 value: 'Returns important website links',
       },
       {
 			 name: 'Regular field title',
@@ -40,6 +40,6 @@ module.exports = {
     ],    
   };
   
-    interaction.reply({embeds: [infoHelp]});
+    interaction.reply({embeds: [infoHelp], ephemeral: true});
   }
 }
