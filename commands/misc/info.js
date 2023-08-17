@@ -17,24 +17,24 @@ module.exports = {
 			 value: 'Returns important website links',
       },
       {
-			 name: 'Regular field title',
-			 value: 'Some value here',
+			 name: '/checklists',
+			 value: 'Returns course checklists for engineering',
       },
       {
-			 name: 'Regular field title',
-			 value: 'Some value here',
+			 name: '/programs',
+			 value: 'Returns engineering program websites',
       },
       {
-			 name: 'Regular field title',
-			 value: 'Some value here',
+			 name: 'Placeholder',
+			 value: 'Placeholder',
       },
       {
-			 name: 'Regular field title',
-			 value: 'Some value here',
+			 name: 'Placeholder',
+			 value: 'Placeholder',
       },
       {
-			 name: 'Regular field title',
-			 value: 'Some value here',
+			 name: 'Placeholder',
+			 value: 'Placeholder',
       },
     
     ],    
